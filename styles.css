@@ -7,7 +7,7 @@
 	outline: none;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .btnn {
@@ -124,19 +124,20 @@
 h1.title{
 	margin-bottom: 20px;
 	color: #000000;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-size: 38px;
+	font-size: 26px;
 	/* word-spacing: 5px;
 	letter-spacing: 5px; */
 }
 
 p{
+	/* width: 500px; */
 	margin-bottom: 15px;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 20px;
 	color: #000000;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .btn a {
@@ -152,6 +153,7 @@ p{
 
 .main_container{
 	position: relative;
+	height: 100vh;
 }
 
 /* Navigation Bar */
@@ -166,7 +168,7 @@ p{
 
 .logo img{
 	float: left;
-	width: 210px;
+	width: 280px;
 	margin-left: 0px;
 	margin-top: 18%;
 	opacity: 1.0;
@@ -190,10 +192,11 @@ p{
 
 /* banner_image */
 .banner_image{
-	background: url('images/background_test_2.png') no-repeat top center;
+	background: url('images/background_test_3.png') no-repeat top center;
 	background-size: cover;
 	width: 100%;
-	height: 500px;
+	height: 100%;
+	/* height: 900px; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -208,7 +211,7 @@ p{
 	text-transform: uppercase;
 	line-height: 38px;
 	margin-bottom: 15px;
-	margin-top: 150px;
+	margin-top: 20px;
 }
 
 .banner_content h1 span{
@@ -232,13 +235,14 @@ p{
 .services,
 .contactus,
 .ourteam{
+
 	text-align: center;
-	padding: 5% 10%;
+	padding: 5% 20%;
 }
 
 .about{
 	text-align: center;
-	padding: 5% 10%;
+	padding: 5% 20%;
 
 }
  .technology img{
@@ -248,6 +252,17 @@ p{
 	 padding-right: 35px;
 
  }
+
+ .application .guldrow{
+ 	display: flex;
+ }
+ .application .guldrow .image img{
+ 	width: 100%;
+ 	/* margin-top: 20px; */
+ 	padding: 20px;
+
+ }
+
 .application .row{
 	display: flex;
 }
